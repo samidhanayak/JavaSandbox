@@ -7,30 +7,25 @@ public class BlockDemo {
             System.out.println("Inside the constructor...");
         }
 
-        // static block // 1
         static {
             System.out.println("Static Block ");
         }
 
         static  {
-            System.out.println("static 2");
+            System.out.println("Static Block 2");
         }
 
-        // instance block  // 2
         {
             System.out.println("Instance Block");
         }
 
-        // normal method // 4
         public void set(){
-            System.out.println("Inside non static method");
+            System.out.println("Inside non static set method");
         }
-        // static method // 5
+
         public static void show(){
-            System.out.println("Static Method.");
+            System.out.println("Static show method.");
         }
 
-        public static void main(String[] args) {
 
-        }
 }
