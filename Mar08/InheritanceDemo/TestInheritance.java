@@ -14,6 +14,7 @@ public class TestInheritance {
         l1.memory = 2000;
         l1.processor = "AMD";
         l1.showLaptopSpecs();
+        l1.showComputerSpecs();
 
         Tablet t1 = new Tablet();
         t1.weight = 25;
@@ -22,5 +23,7 @@ public class TestInheritance {
         t1.memory = 4321;
         t1.processor = "Nvidia";
         t1.showTabSpecs();
+        l1.showLaptopSpecs();
+        l1.showComputerSpecs();
     }
 }
