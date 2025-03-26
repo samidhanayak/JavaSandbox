@@ -5,7 +5,10 @@ public class EncapMain {
         EncapSecurity es = new EncapSecurity("user1","pass1");
         //es.setUsername("user2");
         es.setPassword("pass2");
-        System.out.println("username: "+es.getUsername());
-        System.out.println("password: "+es.getPassword());
+        //System.out.println("username: "+es.getUsername());
+        //System.out.println("password: "+es.getPassword());
+
+        es.isValidUSer("user1","pass2");
+
     }
 }

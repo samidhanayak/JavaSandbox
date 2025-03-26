@@ -27,4 +27,13 @@ public class EncapSecurity {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public void isValidUSer(String username,String password){
+        if ((this.username.equalsIgnoreCase(username)) && (this.password.equalsIgnoreCase(password))) {
+            System.out.println("User is valid");
+        }
+        else {
+            System.out.println("User not valid");
+        }
+    }
 }
