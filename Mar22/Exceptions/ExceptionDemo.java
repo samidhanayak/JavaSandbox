@@ -17,17 +17,23 @@ public class ExceptionDemo {
 
             System.out.println("Will I get printed?");
 
+            /*
             String sample = null;
             sample.toLowerCase();
-            System.out.println(sample);
+            System.out.println(sample); */
 
+            int [] arr = {1,2,3,4,5};
 
+            System.out.println(arr[5]);
 
         }
         catch (NullPointerException e){
             e.printStackTrace();
         }
         catch (ArithmeticException e){
+            e.printStackTrace();
+        }
+        catch (ArrayIndexOutOfBoundsException e){
             e.printStackTrace();
         }
         catch (Exception e) {
