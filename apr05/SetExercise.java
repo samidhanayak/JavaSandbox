@@ -19,9 +19,18 @@ public class SetExercise {
         s2.addAll(l);
         System.out.println("s2: "+s2);
 
+        System.out.println("Iterator");
+        List<Integer> l2 = new ArrayList<>(Arrays.asList(10, 20, 30, 40, 40, 50, 55, 30, 33, 44, 44));
 
+        Iterator<Integer> itr = l2.iterator();
 
+        while (itr.hasNext()){
+            Integer next = itr.next();
+            System.out.println("next: "+next);
+            if (next == 10) itr.remove();
 
+        }
+        System.out.println(l2);
 
 
     }
