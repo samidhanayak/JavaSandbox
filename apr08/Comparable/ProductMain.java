@@ -1,6 +1,4 @@
-package apr08;
-
-import apr01.Employee;
+package apr08.Comparable;
 
 import java.util.ArrayList;
 import java.util.Collections;

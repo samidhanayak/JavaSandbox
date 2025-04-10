@@ -1,4 +1,4 @@
-package apr08;
+package apr08.Comparable;
 
 public class Product implements Comparable<Product> {
     int id;
