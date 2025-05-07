@@ -1,0 +1,2 @@
+Streams function reduce
+flatmap
